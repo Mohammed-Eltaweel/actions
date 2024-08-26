@@ -31,7 +31,7 @@ jobs:
       #     #   ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip install gcc-c++
+        run: pip install gcc
         # Use the cache hit/miss to optimize the install step
         # if: steps.pip-cache.outputs.cache-hit != 'true'
 
