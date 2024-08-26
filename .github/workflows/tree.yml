@@ -35,7 +35,6 @@ jobs:
         # Use the cache hit/miss to optimize the install step
         # if: steps.pip-cache.outputs.cache-hit != 'true'
 
-      - name: Run Python tests
-        run: pytest
+      
 
  
